@@ -25,4 +25,4 @@ This is a real-time event ticketing system that allows users to purchase tickets
 ### Steps to run the project:
 1. Clone this repository:
    ```bash
-   git clone https://https://github.com/Stephanie12-ben/ticketing-system/new/main
+   git clone https://github.com/Stephanie12-ben/ticketing-system.git
