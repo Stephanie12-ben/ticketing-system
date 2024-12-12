@@ -1,17 +1,17 @@
 Real-Time Ticketing System
 
 
-###Project Overview
+Project Overview
 The Real-Time Ticketing System is a dynamic and scalable solution for managing ticket sales in real-time. It enables users to purchase tickets, tracks the number of available tickets, and logs all system activities, ensuring smooth operation and data integrity. This system uses a combination of React for the frontend and Spring Boot for the backend, with MySQL for database management.
 
-###Features
+Features
 Configuration Management: Set parameters such as total tickets, ticket release rate, and pool size.
 Real-Time Ticket Purchase: Purchase tickets in real-time with updates to the ticket pool.
 System Logging: Maintain logs for all activities, including ticket purchases and system state changes.
 Scalable Backend: Built using Spring Boot for seamless integration with MySQL.
 Interactive Frontend: Developed with React to provide a user-friendly interface.
 
-###Technologies Used
+Technologies Used
 Frontend
 React: User Interface
 JavaScript: Component logic
@@ -21,17 +21,17 @@ Backend
 Spring Boot: RESTful API and server-side logic
 MySQL: Database management
 
-###Tools
+Tools
 Postman: API testing
 npm: Package management
 
 Installation and Setup
-###Prerequisites
+Prerequisites
 Node.js and npm installed
 Java (JDK 22) installed
 MySQL server set up
 
-###Frontend Setup
+Frontend Setup
 Navigate to the frontend directory:
    cd frontend
 Install dependencies:
@@ -39,7 +39,7 @@ Install dependencies:
 Start the React development server:
    npm start
 
-###Backend Setup
+Backend Setup
 Navigate to the backend directory:
    cd backend
 Build and run the Spring Boot application:
@@ -55,7 +55,7 @@ spring.datasource.password=" "
 
 Run the application to initialize the database.
 
-###Usage
+Usage
 Configuration
 Open the application in your browser.
 Fill out the configuration form with required parameters.
@@ -69,18 +69,18 @@ API Endpoints
 GET /api/tickets: Fetch available tickets.
 POST /api/purchase: Purchase specified tickets.
 
-###Future Enhancements
+Future Enhancements
 Add authentication and authorization.
 Support for multiple ticket categories.
 Integration with payment gateways.
 
-###Contributors
+Contributors
 Developer: [Benedict Stephanie]
 Project Manager: [Benedict Stephanie]
 UI Designer: [Benedict Stephanie]
 
 
-###Acknowledgments
+Acknowledgments
 Inspired by real-time systems and scalable architecture principles.
 
 
